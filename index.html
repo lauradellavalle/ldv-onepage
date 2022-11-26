@@ -1,79 +1,87 @@
 <!DOCTYPE html>
+<html>
+     <!-- This is the HEAD of our HTML 
+    In the head we set all the information we need the browser reads but we don't need to see on the screen (extra resources and metadata)-->
+    <head>
+        <title>LDV</title>
+        <!-- Gridlex -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-<head>
-    <!-- Gridlex -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+        <!-- This is our font-awesome ICONS, link copied from cdnjs.com -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Font -  -->
 
-    <!-- Own CSS -->
-    <link href="style.css" rel="stylesheet">
-    <title>LDV</title>
-</head>
 
-<body>
-    <!-------------- Header ------------>
-    <header class="grid">
-        <div class="col-6">
-            <h1>LDV Journal</h1>
-        </div>
-        <div class="col-3">
-            <h4>Contact</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum sint laborum dolores dolorem architecto consequuntur.</p>
-        </div>
-        <div class="col-3">
-            <h4>Contact</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis cumque quidem voluptate error officia, </p>
-        </div>
+        <!-- Own CSS -->
+        <link href="style.css" rel="stylesheet">
         
-    </header>
+    </head>
+    
+    <!-- This is the BODY of our HTML
+    In the body goes what we want to display -->
+    <body class="padded">
+        <!-------------- Header ------------>
+        <header class="grid">
+            <div class="col-6">
+                <h1>LDV Journal</h1>
+            </div>
+            <div class="col-3 border-left">
+                <h4 class="border-bottom"><em>Contact</em></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum sint laborum dolores dolorem architecto consequuntur.</p>
+            </div>
+            <div class="col-3 border-left">
+                <h4 class="border-bottom"><em>Contact</em></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis cumque quidem voluptate error officia, </p>
+            </div>
+            
+        </header>
 
-    <!-------------- Reference Section ------------>
-    <section class="grid-spaceBetween">
-        <div class="col-2">
-            <p>Issue #001</p>
-        </div>
-        <div class="col-2">
-            <p>Category</p>
-        </div>
-        <div class="col-2">
-            <p>Date</p>
-        </div>
-    </section>
+        <!-------------- Reference Section ------------>
+        <section class="grid-spaceBetween border-bottom padded-top">
+            <div class="col-2-middle">
+                <p>Issue #001</p>
+            </div>
+            <div class="col-2-middle text-center">
+                <p>Category</p>
+            </div>
+            <div class="col-2-middle text-right">
+                <p>Date</p>
+            </div>
+        </section>
 
-    <!-------------- Articles ------------>
-    <section class="grid">
-        <div class="col-12">
-            <h1>big title of the post</h1>
-        </div>
-        <div class="col-12 bg-image">
-        </div>
-        <div class="col-12"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, mollitia doloribus ducimus maxime recusandae dolor cupiditate ipsum autem accusantium reiciendis. Fugit iure dolore nisi quasi laudantium odio dignissimos odit delectus.</p></div>
-    </section>
+        <!-------------- Articles ------------>
+        <section class="grid padded-top">
+            <div class="col-12">
+                <h1 class="uppercase justify big-text">big title of the post</h1>
+            </div>
+            <div class="col-12 bg-image">
+            </div>
+            <div class="col-12 article border-bottom"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, mollitia doloribus ducimus maxime recusandae dolor cupiditate ipsum autem accusantium reiciendis. Fugit iure dolore nisi quasi laudantium odio dignissimos odit delectus.</p></div>
+        </section>
 
-    <!-------------- Bottom Nav ------------>
-    <section>
-        <div>
-            <p>Previous</p>
-        </div>
-        <div>
-            <p>Next</p>
-        </div>
-    </section>
+        <!-------------- Bottom Nav ------------>
+        <section class="grid">
+            <div class="col-6">
+                <p>Previous</p>
+            </div>
+            <div class="col-6 text-right">
+                <p>Next</p>
+            </div>
+        </section>
 
-    <!-------------- Footer ------------>
-    <section>
-        <div>
-            <p>Copyright</p>
-        </div>
-        <div>
-            <p><i class="fa-duotone fa-cloud"></i></p>
-        </div>
-    </section>
+        <!-------------- Footer ------------>
+        <section class="grid">
+            <div class="col-6">
+                <p>Copyright</p>
+            </div>
+            <div class="col-6 text-right">
+                <p><a href="https://www.instagram.com/lauradellavalle"><i class="fa fa-camera-retro"></i></a></p>
+            </div>
+        </section>
 
 
-</body>
+    </body>
 
 
 </html>
