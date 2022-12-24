@@ -10,8 +10,11 @@
         <!-- This is our font-awesome ICONS, link copied from cdnjs.com -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- Font -  -->
+        <!-- Font --->
+        
 
+        <!-- Responsiveness --->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <!-- Own CSS -->
         <link href="style.css" rel="stylesheet">
@@ -23,16 +26,20 @@
     <body class="padded">
         <!-------------- Header ------------>
         <header class="grid">
-            <div class="col-6">
-                <h1>LDV Journal</h1>
+            <div class="col-5_sm-12">
+                <h1 class="big-text">LDV <em>Journal</em></h1>
+                <h3 class="subtitle">C'è vita dopo i 30</h3>
             </div>
-            <div class="col-3 border-left">
-                <h4 class="border-bottom"><em>Contact</em></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum sint laborum dolores dolorem architecto consequuntur.</p>
+            <div class="col-1_sm-0"></div>
+            <div class="col-3_sm-12">
+                <h4 class="border-bottom text-right"><em>Chi sono</em></h4>
+                <p class="text-right">La vita di un'infermiera italiana in Australia.</p>
             </div>
-            <div class="col-3 border-left">
-                <h4 class="border-bottom"><em>Contact</em></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis cumque quidem voluptate error officia, </p>
+            <div class="col-3_sm-12 border-left text-right">
+                <h4 class="border-bottom text-right"><em>Contattami</em></h4>
+                <p> <a href="https://www.instagram.com/lauradellavalle"><i class="fa fa-camera-retro"></i></a>
+                </p>
+                <p> <a href="mailto:"laura.dellavalle@gmail.com">Email</a></p>
             </div>
             
         </header>
@@ -43,37 +50,42 @@
                 <p>Issue #001</p>
             </div>
             <div class="col-2-middle text-center">
-                <p>Category</p>
+                <p><em>Category</em></p>
             </div>
             <div class="col-2-middle text-right">
-                <p>Date</p>
+                <p><em>Dicembre</em> 2022</p>
             </div>
         </section>
 
         <!-------------- Articles ------------>
-        <section class="grid padded-top">
-            <div class="col-12">
-                <h1 class="uppercase justify big-text">big title of the post</h1>
+        <section class="grid padded-top text-center">
+            <div class="col-12-middle">
+                <h1 class="big-text title"><em>LDV</em> goes <em>to Australia</em></h1>
             </div>
             <div class="col-12 bg-image">
             </div>
-            <div class="col-12 article border-bottom"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, mollitia doloribus ducimus maxime recusandae dolor cupiditate ipsum autem accusantium reiciendis. Fugit iure dolore nisi quasi laudantium odio dignissimos odit delectus.</p></div>
+            <div class="col-12 article border-bottom text-left"><p>È già passata più di una settimana da quando ho messo piede DownUnder. Non ho ancora bisto un mega ragno e non sono ancora stata attaccata da squali/meduse/coccodrilli o qualsiasi altro anumale altamente mortale. </p>
+            <p>Non sono nemmeno ancora andata a fare una passegiata in centro ne un selfie a Bondi Beach, e l'Opera house l'ho vista solo dal finestrino della metro.
+                <br> In compenso mi sono dedicata alla parte burocratica per togliermela il prima possibile. Ho attivato una sim, aperto il conto corrente, ottenuto il TFN, richiesto l'attivazione di Medicare (un particolare ringraziamento va agli accordi del Commonwealth e alla mia precedente esperienza in Inghilterra), iniziato le pratiche per la conversione della patente, visto diverse case e macchine.. E, sulla strada per Manly, sono passata davanti al mio prossimo ospedale.
+                <br>Sono anche riuscita ad andare in palestra qualche volta, fare sport mi fa sempre bene, scarico i nervi e l'ansia. Perchè si, ricominciare da capo, ancora una volta, mette ansia.
+            </p>
+            </div>
         </section>
 
         <!-------------- Bottom Nav ------------>
-        <section class="grid">
+        <section class="grid padded-top">
             <div class="col-6">
-                <p>Previous</p>
+                <p><em>Previous</em></p>
             </div>
             <div class="col-6 text-right">
-                <p>Next</p>
+                <p><em>Next</em></p>
             </div>
         </section>
 
         <!-------------- Footer ------------>
         <section class="grid">
             <div class="col-6">
-                <p>Copyright</p>
+                <p class="copy"><em>Copyright - all rights reserved - Laura Della Valle 2022</em></p>
             </div>
             <div class="col-6 text-right">
                 <p><a href="https://www.instagram.com/lauradellavalle"><i class="fa fa-camera-retro"></i></a></p>
