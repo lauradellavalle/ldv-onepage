@@ -35,6 +35,10 @@
     src: local('Neue Plak'), url('/fonts/Neue_Plak/Neue-Plak-Condensed-Regular.ttf') format('truetype');
     }
 
+/*  
+font-family: 'Montserrat', sans-serif; - 100, 200, 300, 400 ,500
+*/
+
 
 
 .horizontal-scroll {
@@ -108,17 +112,31 @@ h4 {
     background-position: center;
     color: white;
     padding: 10%;
+    margin-bottom: 3%;
 }
 
 p {
-    font-family: 'GT America Regular';
-    font-weight: 200;
-    line-height: 1.4rem;
+    font-family: 'Montserrat', 'GT America Regular';
+    font-weight: 400;
+    line-height: 1.4;
     margin-bottom: 1rem;
 }
 
 p:last-child {
     margin-bottom: 0;
+}
+
+.article p {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 300;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.bold {
+    color: rgb(46, 46, 46);
+    font-weight: 600;
 }
 
 .article {
@@ -145,10 +163,8 @@ p:last-child {
 
 
 /* -------------- Image styling -------------- */
-.bg-image {
-    background-image: url(images/dec-2002-australia.jpg);
-    background-size: cover;
-    min-height: 90vh;
+.article-big-img {
+    max-width: 70%;
 }
 
 /* -------------- Card styling -------------- */
