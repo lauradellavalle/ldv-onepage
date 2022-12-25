@@ -3,85 +3,69 @@
      <!-- This is the HEAD of our HTML 
     In the head we set all the information we need the browser reads but we don't need to see on the screen (extra resources and metadata)-->
     <head>
-        <title>LDV</title>
+        <title>Laura Della Valle LDV Journey Navigation page</title>
         <!-- Gridlex -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
         <!-- This is our font-awesome ICONS, link copied from cdnjs.com -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- Font -  -->
+        <!-- Font --->
+        
 
+        <!-- Responsiveness --->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <!-- Own CSS -->
         <link href="style.css" rel="stylesheet">
         
     </head>
-    
-    <!-- This is the BODY of our HTML
-    In the body goes what we want to display -->
-    <body class="padded">
-        <!-------------- Header ------------>
-        <header class="grid">
-            <div class="col-6">
-                <h1>LDV Journal</h1>
-            </div>
-            <div class="col-3 border-left">
-                <h4 class="border-bottom"><em>Contact</em></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum sint laborum dolores dolorem architecto consequuntur.</p>
-            </div>
-            <div class="col-3 border-left">
-                <h4 class="border-bottom"><em>Contact</em></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis cumque quidem voluptate error officia, </p>
-            </div>
+
+    <body>
+
+        <section class="container grid-spaceBetween">
+
             
-        </header>
+            <!-- Titolo -->
+            <header class="grid-spaceBetween-middle col-3_sm-12">
+                <section>
+                    <h1 class="big-text">LDV <br><em>Journal</em></h1>
+                    <h2 class="subtitle margin-top-1">C'è vita dopo i 30</h2>
+                </section>
+            </header>
 
-        <!-------------- Reference Section ------------>
-        <section class="grid-spaceBetween border-bottom padded-top">
-            <div class="col-2-middle">
-                <p>Issue #001</p>
-            </div>
-            <div class="col-2-middle text-center">
-                <p>Category</p>
-            </div>
-            <div class="col-2-middle text-right">
-                <p>Date</p>
-            </div>
+            <section class="grid col-9_md-12 horizontal-scroll">
+                <!-- First Card -->
+                <div class="col-5_sm-10 grid card dec-2022">
+                    <div class="col-12-middle opacity-20 padded-lg">
+                        <h3>LDV <em>goes</em> to Australia</h3>
+                        <p>È già passata più di una settimana da quando ho messo piede DownUnder. Non ho ancora visto un mega ragno e non sono ancora stata attaccata da squali/meduse/coccodrilli o qualsiasi altro anumale altamente mortale.</p>
+                        <a href="#">Continua a leggere</a>
+                    </div>
+                </div>
+
+                <!-- Second Card -->
+                <div class="col-5_sm-10 grid card dec-2022">
+                    <div class="col-12-middle opacity-20 padded-lg">
+                        <h3>LDV <em>goes</em> to Australia</h3>
+                        <p>È già passata più di una settimana da quando ho messo piede DownUnder. Non ho ancora visto un mega ragno e non sono ancora stata attaccata da squali/meduse/coccodrilli o qualsiasi altro anumale altamente mortale.</p>
+                        <a href="#">Continua a leggere</a>
+                    </div>
+                </div>
+
+                <!-- Third Card -->
+                <div class="col-5_sm-10 grid card dec-2022">
+                    <div class="col-12-middle opacity-20 padded-lg">
+                        <h3>LDV <em>goes</em> to Australia</h3>
+                        <p>È già passata più di una settimana da quando ho messo piede DownUnder. Non ho ancora visto un mega ragno e non sono ancora stata attaccata da squali/meduse/coccodrilli o qualsiasi altro anumale altamente mortale.</p>
+                        <a href="#">Continua a leggere</a>
+                    </div>
+                </div>
+
+            </section>
+
         </section>
-
-        <!-------------- Articles ------------>
-        <section class="grid padded-top">
-            <div class="col-12">
-                <h1 class="uppercase justify big-text">big title of the post</h1>
-            </div>
-            <div class="col-12 bg-image">
-            </div>
-            <div class="col-12 article border-bottom"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, mollitia doloribus ducimus maxime recusandae dolor cupiditate ipsum autem accusantium reiciendis. Fugit iure dolore nisi quasi laudantium odio dignissimos odit delectus.</p></div>
-        </section>
-
-        <!-------------- Bottom Nav ------------>
-        <section class="grid">
-            <div class="col-6">
-                <p>Previous</p>
-            </div>
-            <div class="col-6 text-right">
-                <p>Next</p>
-            </div>
-        </section>
-
-        <!-------------- Footer ------------>
-        <section class="grid">
-            <div class="col-6">
-                <p>Copyright</p>
-            </div>
-            <div class="col-6 text-right">
-                <p><a href="https://www.instagram.com/lauradellavalle"><i class="fa fa-camera-retro"></i></a></p>
-            </div>
-        </section>
-
 
     </body>
-
 
 </html>
