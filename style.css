@@ -9,6 +9,13 @@
 	src: url('/fonts/Queens_Trial/QueensCompressedTrial-Regular.ttf');
 	src: local('Queens Trial Regular'), url('/fonts/Queens_Trial/QueensCompressedTrial-Regular.ttf') format('truetype');
 	}
+
+@font-face {
+    font-family: 'Queens Compressed Trial Regular';
+    src: url('/fonts/Queens_Trial/QueensCompressedTrial-Regular.ttf');
+    src: local('Queens Compressed Trial Italic'), url('/fonts/Queens_Trial/QueensCompressedTrial-Regular.ttf') format('truetype');
+    }
+
     
 @font-face {
     font-family: 'GT America Regular';
@@ -16,24 +23,43 @@
     src: local('GT America Regular'), url('/fonts/GT_America/GT-America-Regular.ttf') format('truetype');
     }
 
-/* Temporary style */
-section{
-    padding: 0.5rem;
-    border: 1px solid rgb(225,225,225);
-}
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('/fonts/Neue_Plak/Neue-Plak-Condensed-Regular.ttf');
+    src: local('Neue Plak'), url('/fonts/Neue_Plak/Neue-Plak-Condensed-Regular.ttf') format('truetype');
+    }
+
+
+
+.horizontal-scroll {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+.container {
+    min-height: 100vh;
+    padding: 5% 0 5% 5%;
+  }
+
 
 /* -------------- Universal classes and styles -------------- */
 
 .text-left              {text-align: left;}
 .text-right             {text-align: right;}
 .text-center            {text-align: center;}
+.text-justify           {text-align: justify;}
 
 .padded                 {padding: 5%;}
-.padded-sm              {padding: 1rem;}
-.padded-lg              {padding: 5rem;}
+.padded-lg              {padding: 10%;}
+.padded-1               {padding: 1rem;}
+.padded-5               {padding: 5rem;}
 
 .padded-top             {padding-top: 5%;}
 .padded-bottom          {padding-bottom: 5%;}
+
+.margin-top             {margin-top: 5%;}
+.margin-bottom          {margin-bottom: 5%;}
+
 
 .small-text             {font-size: 1.5rem;}
 .medium-text            {font-size: 2.2rem;
@@ -63,6 +89,21 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
+.subtitle {
+    font-family: 'Queens Compressed Trial Regular';
+    letter-spacing: -1.2px;
+    font-style: italic;
+    color: lightslategray;
+}
+
+.title {
+    background-image: url('/images/bg-black.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10%;
+}
+
 p {
     font-family: 'GT America Regular';
     font-weight: 200;
@@ -82,10 +123,6 @@ p:last-child {
     text-transform: uppercase;
 }
 
-.justify {
-    text-align: justify;
-}
-
 .border-bottom {
     border-bottom: 1px solid;
 }
@@ -94,9 +131,67 @@ p:last-child {
     border-left: 1px solid;
 }
 
+.copy {
+    font-size: small;
+    color: rgb(120,120,125);
+}
+
 /* -------------- Image styling -------------- */
 .bg-image {
     background-image: url(images/LDV-onepage-1.jpg);
     background-size: cover;
     min-height: 90vh;
 }
+
+/* -------------- Card styling -------------- */
+.dec-2022 {
+    background-image: url('/images/dec-2002-australia.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.opacity-20 {
+    background-color:rgba(255, 255, 255, .5);
+}
+
+.card {
+    padding: 0;
+    min-height: 100%;
+}
+
+.card h3 {
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.card a {
+    font-family: 'GT America Regular';
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: rgb(255, 255, 255);
+}
+
+.horizontal-scroll .card {
+    border-right: 30px solid rgb(255, 255, 255);
+}
+
+
+
+/* -------------- Media Queries - MD 48em/768px -------------- */
+@media (max-width: 48em) {
+    header section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* Temporary Style 
+section, div {
+    border: 1px solid orange;
+}
+
+*/
