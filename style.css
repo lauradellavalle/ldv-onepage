@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/*
+[class*=col-] {
+    padding: 0;
+  }
+*/
+
 @font-face {
 	font-family: 'Queens Trial Regular';
 	src: url('/fonts/Queens_Trial/QueensCompressedTrial-Regular.ttf');
@@ -123,22 +129,24 @@ p:last-child {
     text-transform: uppercase;
 }
 
-.border-bottom {
-    border-bottom: 1px solid;
-}
+.border-bottom  { border-bottom: 1px solid;}
+.border-top     { border-top: 1px solid;}
+.border-left    { border-left: 1px solid;}
+.border-right   { border-right: 1px solid;}
 
-.border-left {
-    border-left: 1px solid;
-}
+.border-top-padded-1 {border-top: 1px solid; padding-top: 1rem;}
 
 .copy {
     font-size: small;
     color: rgb(120,120,125);
 }
 
+.text-light {color: rgb(120,120,125);}
+
+
 /* -------------- Image styling -------------- */
 .bg-image {
-    background-image: url(images/LDV-onepage-1.jpg);
+    background-image: url(images/dec-2002-australia.jpg);
     background-size: cover;
     min-height: 90vh;
 }
@@ -153,6 +161,11 @@ p:last-child {
 
 .opacity-20 {
     background-color:rgba(255, 255, 255, .5);
+}
+
+.opacity-20:hover {
+    background-color: rgba(0,0,0, .5);
+    color: white;
 }
 
 .card {
@@ -171,6 +184,10 @@ p:last-child {
     text-transform: uppercase;
     font-size: .8rem;
     color: rgb(255, 255, 255);
+}
+
+.card a:hover {
+    color: rgb(148, 148, 148);
 }
 
 .horizontal-scroll .card {
@@ -193,5 +210,5 @@ p:last-child {
 section, div {
     border: 1px solid orange;
 }
-
 */
+
