@@ -93,6 +93,13 @@ h1 {
     font-family: 'Queens Trial Regular';
 }
 
+h2 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
 h4 {
     font-family: 'Queens Trial Regular';
     font-size: 1.5rem;
