@@ -48,7 +48,7 @@ font-family: 'Montserrat', sans-serif; - 100, 200, 300, 400 ,500
 
 .container {
     min-height: 100vh;
-    padding: 5% 0 5% 5%;
+    /* padding: 5% 0 5% 5%; */
   }
 
 
@@ -95,14 +95,14 @@ h1 {
 }
 
 .child h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 1;
     margin-top: 0.5rem;
     white-space: nowrap;
 }
 
 .child-bottom h2 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     white-space: nowrap;
 }
 
@@ -225,10 +225,18 @@ p:last-child {
     min-height: 100%;
 }
 
-.card h3 {
+.card h2 {
     font-size: 1.7rem;
+    color: white;
+    font-weight: 600;
+}
+
+.card h3 {
+    font-size: 1.4rem;
     padding-bottom: 2rem;
     color: white;
+    font-family: 'Queens Compressed Trial Regular';
+    font-style: italic;
 }
 
 .card a {
@@ -299,7 +307,7 @@ p:last-child {
 }
 
 /* -------------- Media Queries - SM 48em/768px -------------- */
-@media (max-width: 48em) {
+@media (max-width: 64em) {
     header section {
         width: 100%;
         text-align: center;
@@ -309,23 +317,9 @@ p:last-child {
     .mobile-show { display: block;}
     .mobile-hide { display: none;}
 
-    .mobile-header {
-        height: 40vh;
-    }
-
-    .child-bottom-mobile {
-        position: absolute;
-        bottom: 60%;
-        white-space: nowrap;
-        
-    }
-
-    .child-bottom-mobile h1 {
-        font-size: 6rem;
-    }
-
-    .child-bottom-mobile h2 {
-        font-size: 1rem;
+    [class*=grid-]>[class*=_md-10], [class*=grid_]>[class*=_sm-10], [class~=grid]>[class*=_md-10] {
+        min-height: 50vh;
+        margin-top: 5%;
     }
 
 }

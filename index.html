@@ -3,7 +3,7 @@
      <!-- This is the HEAD of our HTML 
     In the head we set all the information we need the browser reads but we don't need to see on the screen (extra resources and metadata)-->
     <head>
-        <title>Laura Della Valle LDV Journey Navigation page</title>
+        <title>LDV</title>
         <!-- Gridlex -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
@@ -23,46 +23,110 @@
         <link href="style.css" rel="stylesheet">
         
     </head>
+    
+    <!-- This is the BODY of our HTML
+    In the body goes what we want to display -->
+    <body class="padded">
+        <!-------------- Desktop ------------>
+        <!-- First Row -->
+        <section class="grid mobile-hide">
+            <div class="col-3 padded-03">
+                <div class="square parent">
+                    <div class="child">
+                        <a href="https://www.instagram.com/lauradellavalle" class="courier">@lauradellavalle</a>
+                        <h1 class="big-text">LDV <em>Journal</em></h1>
+                    </div>
+                    <div class="child-bottom">
+                            <h2 class="text-light courier ">Un'infermiera in Australia</h2>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-3 padded-03 mobile-hide">
+                <div class="square"></div>
+            </div>
+            <div class="col-3 padded-03 grid bg-image bg-image-Dec2022 square">
+                <a href="/LDV-goes-to-Australia.html" class="col-12-middle box text-center"> <h2>LDV goes to Australia <br><br> Primo mese</h2></a>
+            </div>
+            <div class="col-3 padded-03 mobile-hide">
+                <div class="square"></div>
+            </div>
+            
+        </section>
+        
+        <!-- Second Row -->
+        <section class="grid mobile-hide">
+            <div class="col-3 padded-03 ">
+                <div class="bg-image square "></div>
+            </div>
+            <div class="col-3 padded-03">
+                <div class="bg-image square "></div>
+            </div>
+            <div class="col-3 padded-03">
+                <div class="bg-image square "></div>
+            </div>  
+            <div class="col-3 padded-03">
+                <div class="bg-image square "></div>
+            </div>
+            
+        </section>
+            
+        
+        <!-- Third Row -->
+        <section class="grid mobile-hide">
+            <div class="col-3 padded-03 ">
+            <div class="square"></div>
+            </div>
+            <div class="col-3 padded-03 ">
+            <div class="square"></div>
+            </div>
+            <div class="col-3 padded-03 ">
+            <div class="bg-image square"></div>
+            </div>
+            <div class="col-3 padded-03 ">
+            <div class="square"></div>
+            </div>
+            
+        </section>
 
-    <body>
 
-        <section class="container grid-spaceBetween">
+
+
+        <!-------------- Mobile SM (max width 48em/768) ------------>
+
+        <section class="container grid-spaceBetween mobile-show">
 
             
             <!-- Titolo -->
-            <header class="grid-spaceBetween col-3_sm-12">
+            <header class="grid-spaceBetween col-3_md-12">
                 <section class="col-12-middle">
                     <h1 class="big-text">LDV<br><em>Journal</em></h1>
-                    <h2 class="subtitle margin-top-1">C'è vita dopo i 30</h2>
+                    <h2 class="text-light courier margin-top">Un'infermiera in Australia</h2>
                 </section>
-                <section class="col-11_sm-12-middle">
+                <section class="col-11_md-12-middle">
                     <h4 class="border-top-padded-1"><em>Vuoi di più?</em></h4>
-                    <p>Seguimi su Instagram <a href="https://www.instagram.com/lauradellavalle"><i class="fa fa-camera-retro"></i></a>
+                    <p>Seguimi su <a href="https://www.instagram.com/lauradellavalle">Instagram <i class="fa fa-camera-retro"></i></a>
                     </p>
-                    <p>Mandami una <a href="mailto:"laura.dellavalle@gmail.com">Email</a></p>
+                    <p>Mandami un' <a href="mailto:"laura.dellavalle@gmail.com">Email</a></p>
                 </section>
             </header>
 
             <section class="grid col-9_md-12 horizontal-scroll">
                 <!-- First Card -->
-                <div class="col-8_md-7_sm-10 grid card card-img-border dec-2022">
+                <div class="col-8_md-7_md-10 grid card card-img-border dec-2022">
                     <div class="col-12-middle opacity-20 padded-lg">
-                        <h3>LDV <em>goes</em> to Australia</h3>
-                        <p>Sono già passate quasi due settimane da quanto ho messo di nuovo piede DownUnder, questa volta per restarci. Ho un coinquilino a otto zampe che fortunatamente ha deciso di stabilirsi sul balcone e, seppur è decisamente grosso rispetto a quelli che conoscevo, per il contesto in cui sono è piccolino. Il patto è che ..</p>
+                        <h2>LDV <em>goes</em> to Australia</h2>
+                        <h3>Primo mese</h3>
+                        <p>Sono già passate quasi due settimane da quanto ho messo di nuovo piede DownUnder, questa volta per restarci. Ho un coinquilino a otto zampe che fortunatamente ha deciso di stabilirsi sul balcone </p>
                         <a href="/LDV-goes-to-Australia.html">Continua a leggere</a>
                     </div>
                 </div>
 
                 <!-- Second Card -->
-                <div class="col-8_md-7_sm-10 grid card dec-2022">
-                    <div class="col-12-middle opacity-20 padded-lg">
-                        <h3>LDV <em>goes</em> to Australia</h3>
-                        <p>È già passata più di una settimana da quando ho messo piede DownUnder. Non ho ancora visto un mega ragno e non sono ancora stata attaccata da squali/meduse/coccodrilli o qualsiasi altro anumale altamente mortale.</p>
-                        <a href="#">Continua a leggere</a>
-                    </div>
+                <div class="col-8_md-7_md-10 grid card card-img-border bg-image">
+                    
                 </div>
 
-                <!-- Third Card -->
+                <!-- Third Card 
                 <div class="col-8_md-7_sm-10 grid card dec-2022">
                     <div class="col-12-middle opacity-20 padded-lg">
                         <h3>LDV <em>goes</em> to Australia</h3>
@@ -70,11 +134,13 @@
                         <a href="#">Continua a leggere</a>
                     </div>
                 </div>
+                -->
 
             </section>
 
         </section>
 
     </body>
+
 
 </html>
