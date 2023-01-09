@@ -63,6 +63,7 @@ font-family: 'Montserrat', sans-serif; - 100, 200, 300, 400 ,500
 .padded-lg              {padding: 10%;}
 .padded-1               {padding: 1rem;}
 .padded-5               {padding: 5rem;}
+.padded-03              {padding: 0.3%;}
 
 .padded-top             {padding-top: 5%;}
 .padded-bottom          {padding-bottom: 5%;}
@@ -93,11 +94,27 @@ h1 {
     font-family: 'Queens Trial Regular';
 }
 
+.child h1 {
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 0.5rem;
+    white-space: nowrap;
+}
+
+.child-bottom h2 {
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
 h2 {
     font-family: 'Montserrat', 'sans-serif';
     font-size: 1.4rem;
     font-weight: normal;
     margin-bottom: 1rem;
+}
+
+h2:last-child {
+    margin-bottom: 0;;
 }
 
 h4 {
@@ -107,8 +124,7 @@ h4 {
 }
 
 .subtitle {
-    font-family: 'Queens Compressed Trial Regular';
-    letter-spacing: -1.2px;
+    font-family: 'Queens Compressed Trial Regular';  
     font-style: italic;
     color: lightslategray;
 }
@@ -120,6 +136,10 @@ h4 {
     color: white;
     padding: 10%;
     margin-bottom: 3%;
+}
+
+.courier {
+    font-family: 'Courier New', 'sans-serif';
 }
 
 p {
@@ -174,6 +194,15 @@ p:last-child {
     max-width: 70%;
 }
 
+/* -------------- Images Ratio -------------- */
+.portrait-tall      { padding-bottom: 175%; }
+.portrait           { padding-bottom: 125%; }
+.square             { padding-bottom: 100%; }
+.landscape          { padding-bottom: 66%; }
+.landscape-wide     { padding-bottom: 56%; }
+
+
+
 /* -------------- Card styling -------------- */
 .dec-2022 {
     background-image: url('/images/dec-2002-australia.jpg');
@@ -218,15 +247,93 @@ p:last-child {
 }
 
 
+/* -------------- Cross Styling -------------- */
+.parent {
+    position: relative;
+  }
+  
+.child {
+    position: absolute;
+  }
+  
+.child-bottom {
+    position: absolute;
+    bottom: 10px;
+    white-space: nowrap;
+  }
 
-/* -------------- Media Queries - MD 48em/768px -------------- */
+.box h2 {
+    vertical-align: middle;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.box {
+    vertical-align: middle;
+}
+
+
+/* Background-images */
+.bg-image {
+    background-color: rgb(240,240,240);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.bg-image-Dec2022 {
+    background-image: url('/images/dec-2002-australia.jpg')
+  }
+
+
+.box:hover {
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, .5);
+    color: white;
+}
+
+.mobile-show {
+    display: none;
+}
+
+/* -------------- Media Queries - SM 48em/768px -------------- */
 @media (max-width: 48em) {
     header section {
         width: 100%;
         text-align: center;
         margin-bottom: 1rem;
     }
+
+    .mobile-show { display: block;}
+    .mobile-hide { display: none;}
+
+    .mobile-header {
+        height: 40vh;
+    }
+
+    .child-bottom-mobile {
+        position: absolute;
+        bottom: 60%;
+        white-space: nowrap;
+        
+    }
+
+    .child-bottom-mobile h1 {
+        font-size: 6rem;
+    }
+
+    .child-bottom-mobile h2 {
+        font-size: 1rem;
+    }
+
 }
+
+
+
+
+
 
 
 /* Temporary Style 
