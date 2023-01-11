@@ -66,6 +66,7 @@ font-family: 'Montserrat', sans-serif; - 100, 200, 300, 400 ,500
 .padded-03              {padding: 0.3%;}
 
 .padded-top             {padding-top: 5%;}
+.padded-top-1          {padding-top: 1rem;}
 .padded-bottom          {padding-bottom: 5%;}
 
 .margin-top             {margin-top: 5%;}
@@ -127,6 +128,13 @@ h4 {
     font-family: 'Queens Compressed Trial Regular';  
     font-style: italic;
     color: lightslategray;
+}
+
+.tagline {
+    font-family: 'Montserrat', 'sans-serif'; 
+    color: lightslategray;
+    font-size: 0.8rem;
+    margin-top: 1%;
 }
 
 .title {
@@ -201,6 +209,7 @@ p:last-child {
 .landscape          { padding-bottom: 66%; }
 .landscape-wide     { padding-bottom: 56%; }
 
+.half-square        { padding-bottom: 50%; }
 
 
 /* -------------- Card styling -------------- */
@@ -307,7 +316,7 @@ p:last-child {
 }
 
 /* -------------- Media Queries - SM 48em/768px -------------- */
-@media (max-width: 64em) {
+@media (max-width: 60em) {
     header section {
         width: 100%;
         text-align: center;
