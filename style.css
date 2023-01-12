@@ -202,6 +202,10 @@ p:last-child {
     max-width: 70%;
 }
 
+.article-small-img {
+    max-height: 60vh;
+}
+
 /* -------------- Images Ratio -------------- */
 .portrait-tall      { padding-bottom: 175%; }
 .portrait           { padding-bottom: 125%; }
@@ -314,6 +318,39 @@ p:last-child {
 .mobile-show {
     display: none;
 }
+
+
+/* -------------- Background Images -------------- */
+.bg-image-freshwater {
+    background-color: lightgray;
+    background-image: url(/images/Dec-2022-Freshwater.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+
+.bg-image-opera-house {
+    background-color: lightgray;
+    background-image: url(/images/Dec-2022-Opera-House.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+
+.bg-image-bondi-to-coogee {
+    background-color: lightgray;
+    background-image: url(/images/Dec-2022-Bondi-to-Coogee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+
+
+
+
 
 /* -------------- Media Queries - SM 48em/768px -------------- */
 @media (max-width: 60em) {
