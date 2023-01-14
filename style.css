@@ -308,6 +308,13 @@ p:last-child {
     background-image: url('/images/dec-2002-australia.jpg')
   }
 
+.bg-image-blue-scrub {
+    background-image: url('/images/Jan-2023-blue-scrub.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .box:hover {
     cursor: pointer;
@@ -320,7 +327,7 @@ p:last-child {
 }
 
 
-/* -------------- Background Images -------------- */
+/* -------------- Background Images - Pictures -------------- */
 .bg-image-freshwater {
     background-color: lightgray;
     background-image: url(/images/Dec-2022-Freshwater.jpg);
@@ -348,6 +355,14 @@ p:last-child {
     min-height: 60vh;
 }
 
+.bg-image-northern-beaches {
+    background-color: lightgray;
+    background-image: url(/images/Jan-2022-northern-beaches.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
 
 
 
