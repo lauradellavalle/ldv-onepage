@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-/*
+
 [class*=col-] {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-*/
+
 
 @font-face {
 	font-family: 'Queens Trial Regular';
@@ -66,8 +67,16 @@ font-family: 'Montserrat', sans-serif; - 100, 200, 300, 400 ,500
 .padded-03              {padding: 0.3%;}
 
 .padded-top             {padding-top: 5%;}
-.padded-top-1          {padding-top: 1rem;}
+.padded-top-1           {padding-top: 1rem;}
+.padded-top-05          {padding-top: 0.5rem;}
+
 .padded-bottom          {padding-bottom: 5%;}
+.padded-bottom-1        {padding-bottom: 1rem;}
+
+.padded-right-1         {padding-right: 1rem};
+.padded-left-1          {padding-left: 1rem};
+
+.padded-top-bottom      {padding: 0.5rem 0;};
 
 .margin-top             {margin-top: 5%;}
 .margin-bottom          {margin-bottom: 5%;}
@@ -216,6 +225,42 @@ p:last-child {
 .half-square        { padding-bottom: 50%; }
 
 
+/* -------------- Home Cross Styling -------------- */
+.parent {
+    position: relative;
+  }
+  
+.child {
+    position: absolute;
+  }
+  
+.child-bottom {
+    position: absolute;
+    bottom: 10px;
+    white-space: nowrap;
+  }
+
+.box h2 {
+    vertical-align: middle;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.box {
+    vertical-align: middle;
+}
+
+.square-cross {
+    padding-bottom: 92.94%;
+}
+
+.half-square-cross {
+    padding-bottom: 46.47%;
+}
+
+
 /* -------------- Card styling -------------- */
 .dec-2022 {
     background-image: url('/images/dec-2002-australia.jpg');
@@ -267,50 +312,31 @@ p:last-child {
     border-right: 30px solid rgb(255, 255, 255);
 }
 
-
-/* -------------- Cross Styling -------------- */
-.parent {
-    position: relative;
-  }
-  
-.child {
-    position: absolute;
-  }
-  
-.child-bottom {
-    position: absolute;
-    bottom: 10px;
-    white-space: nowrap;
-  }
-
-.box h2 {
-    vertical-align: middle;
-    font-size: 1rem;
-    color: white;
-    display: inline-block;
-    margin-bottom: 0;
+.border-03 {
+    border: 3px solid white;
 }
 
-.box {
-    vertical-align: middle;
-}
 
 
 /* Background-images */
 .bg-image {
-    background-color: rgb(240,240,240);
-    background-size: cover;
+    background-image: url('/images/bg-240.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
   }
 
 .bg-image-Dec2022 {
-    background-image: url('/images/dec-2002-australia.jpg')
+    background-image: url('/images/dec-2002-australia.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 .bg-image-blue-scrub {
+    background-color: rgb(240,240,240);
     background-image: url('/images/Jan-2023-blue-scrub.jpg');
-    background-position: center;
+    background-position: 50% 10%;
     background-size: cover;
     background-repeat: no-repeat;
 }
