@@ -19,6 +19,9 @@
         <!-- Responsiveness --->
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
+        <!-- Typed.js -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
         <!-- Own CSS -->
         <link href="style.css" rel="stylesheet">
         
@@ -31,7 +34,19 @@
         <header class="grid mobile-hide">
             <div class="col-5_sm-12">
                 <a href="/index.html"><h1 class="big-text">LDV <em>Journal</em></h1></a>
+                
+                <!--
                 <h2 class="courier text-light">Un'infermiera in Australia</h2>
+                -->
+                <div id="typed-strings-article-desktop">
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong></p>
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong>.</p>
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong></p>
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong>.</p>
+                </div>
+                <span id="typed-article-desktop" class="typed-text-mobile"></span>
+
+
             </div>
             <div class="col-1_sm-0"></div>
             <div class="col-3_sm-12 padded-right-1">
@@ -48,11 +63,23 @@
             
         </header>
 
-        <!-------------- Header Desktop ------------>
+        <!-------------- Header Mobile ------------>
         <section class="grid-spaceBetween col-12 mobile-show text-center">
             <section class="col-12-middle">
                 <a href="/index.html"><h1 class="big-text">LDV<br><em>Journal</em></h1></a>
+                
+                <!--
                 <h2 class="text-light courier margin-top">Un'infermiera in Australia</h2>
+                 -->
+                <div id="typed-strings-mobile">
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong></p>
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong>.</p>
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong></p>
+                    <p>Un'<em>infermiera</em> in <strong>Australia</strong>.</p>
+                </div>
+                <span id="typed-mobile" class="typed-text-mobile .margin-top-1"></span>
+
+            
             </section>
             <section class="col-12-middle">
                 <h4 class="border-top-padded-1"><em>Vuoi di più?</em></h4>
@@ -225,6 +252,37 @@
             </div>
         </section>
 
+
+        <!-- Java Typed.js -->
+        <script>
+            var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 20,
+                loop: true,
+                loopCount: Infinity,
+                smartBackspace: true,
+            });
+        </script>
+
+        <script>
+            var typed = new Typed('#typed-article-desktop', {
+                stringsElement: '#typed-strings-article-desktop',
+                typeSpeed: 20,
+                loop: true,
+                loopCount: Infinity,
+                smartBackspace: true,
+            });
+        </script>
+
+        <script>
+            var typed = new Typed('#typed-mobile', {
+                stringsElement: '#typed-strings-mobile',
+                typeSpeed: 20,
+                loop: true,
+                loopCount: Infinity,
+                smartBackspace: true,
+            });
+        </script>
 
     </body>
 
