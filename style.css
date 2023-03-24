@@ -356,6 +356,14 @@ p:last-child {
     background-repeat: no-repeat;
 }
 
+.bg-image-nurse-bench {
+    background-color: rgb(240,240,240);
+    background-image: url('/images/March-2023-LDV-nurses-bench.jpg');
+    background-position: 50% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .box:hover {
     cursor: pointer;
@@ -398,7 +406,15 @@ p:last-child {
 
 .bg-image-northern-beaches {
     background-color: lightgray;
-    background-image: url(/images/Jan-2022-northern-beaches.jpg);
+    background-image: url(/images/Jan-2023-northern-beaches.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.bg-image-night-shift-bunny {
+    background-color: lightgray;
+    background-image: url(/images/March-2023-LDV-night-shift-bunny.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
