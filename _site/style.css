@@ -207,6 +207,11 @@ p:last-child {
 
 .text-light {color: rgb(120,120,125);}
 
+.highlight {
+    background-color: black;
+    color: white;
+}
+
 
 /* -------------- Image styling -------------- */
 .article-big-img {
@@ -420,8 +425,30 @@ p:last-child {
     background-repeat: no-repeat;
     min-height: 60vh;
 }
-
-
+.bg-image-how-to {
+    background-color: lightgray;
+    background-image: url(/images/How-to.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.bg-image-baby-and-me {
+    background-color: lightgray;
+    background-image: url(/images/May-2023-Babyandme.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.bg-image-ponza {
+    background-color: lightgray;
+    background-image: url(/images/May-2023-Ponza.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
 
 
 /* -------------- Media Queries - SM 48em/768px -------------- */
