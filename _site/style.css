@@ -369,6 +369,14 @@ p:last-child {
     background-repeat: no-repeat;
 }
 
+.bg-image-lamp {
+    background-color: rgb(240,240,240);
+    background-image: url('/images/May-2023-Lamp.jpg');
+    background-position: 50% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .box:hover {
     cursor: pointer;
