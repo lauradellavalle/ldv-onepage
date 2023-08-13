@@ -377,6 +377,14 @@ p:last-child {
     background-repeat: no-repeat;
 }
 
+.bg-image-baby-della-mamma {
+    background-color: rgb(240,240,240);
+    background-image: url('/images/baby-della-mamma.jpg');
+    background-position: 50% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .box:hover {
     cursor: pointer;
@@ -457,7 +465,46 @@ p:last-child {
     background-repeat: no-repeat;
     min-height: 60vh;
 }
-
+.bg-image-June-Sky1 {
+    background-color: lightgray;
+    background-image: url(/images/June-Sky1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.bg-image-June-Sky2 {
+    background-color: lightgray;
+    background-image: url(/images/June-Sky2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.bg-image-June-Cloud-and-Moon {
+    background-color: lightgray;
+    background-image: url(/images/June-cloud-and-moon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.bg-image-June-WatsonBay {
+    background-color: lightgray;
+    background-image: url(/images/June-WatsonBay.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.bg-image-How-to-Australia {
+    background-color: lightgray;
+    background-image: url(/images/How-to-Australia.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
 
 /* -------------- Media Queries - SM 48em/768px -------------- */
 @media (max-width: 60em) {
