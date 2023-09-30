@@ -212,6 +212,21 @@ p:last-child {
     color: white;
 }
 
+ul,li {
+    font-family: 'Montserrat', 'GT America Regular';
+    font-weight: 300;
+    line-height: 1.4;
+    margin-left: 1rem;
+    font-size: small;
+}
+
+li:last-child{
+    margin-bottom: 1rem;
+}
+
+li{
+    margin-left: 2rem;
+}
 
 /* -------------- Image styling -------------- */
 .article-big-img {
@@ -505,6 +520,11 @@ p:last-child {
     background-repeat: no-repeat;
     min-height: 60vh;
 }
+
+.portrait-how-to {
+    padding-bottom: 55%;
+}
+
 
 /* -------------- Media Queries - SM 48em/768px -------------- */
 @media (max-width: 60em) {
