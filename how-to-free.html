@@ -72,7 +72,7 @@ layout: default
 
 
             <div class="col-12 article text-left">
-                <form method="post" action="/success.html">
+                <form method="post" action="/thankyou-email.html">
                     <label>Email Address</label>
                     <input type="text" name="email">
                   
@@ -82,19 +82,16 @@ layout: default
                     <label>Message</label>
                     <textarea name="message"></textarea>
                   
-                    <label>Urgent</label>
-                    <input type="checkbox" name="urgent">
-                  
                     <label>Type of Enquiry</label>
-                    <input type="radio" name="_subject" value="Sales Enquiry"> Sales
-                    <input type="radio" name="_subject" value="General Enquiry"> General
+                    <input type="radio" name="_subject" value="generali"> Info Generali
+                    <input type="radio" name="_subject" value="nurse"> Infermier*
                   
                     <input type="hidden" name="inbox_key" value="contact_inbox">
                     <input type="hidden" name="_to" value="laura.dellavalle@gmail.com">
                     <input type="hidden" name="_cc" value="laura.dellavalle@gmail.com">
                     <input type="text" name="_gotcha" style="display: none;">
                   
-                    <input type="submit" value="Send Message">
+                    <input type="submit" value="Invio">
                   </form>
 
             </div>
