@@ -627,7 +627,7 @@ li{
   
   .form-introduction {
     text-align: center;
-    width: 40vw;
+    width: 35vw;
   }
   
   #fc-sumbul {
@@ -659,7 +659,7 @@ li{
     
         .formcarry-container {
           box-sizing: border-box;
-          margin: 40px auto 0 auto;
+          margin: 0px auto 0 auto;
           padding: 0;
           font-family: 'Montserrat', 'GT America Regular';
           font-size: 14px;
@@ -667,7 +667,7 @@ li{
           line-height: 24px;
           letter-spacing: -0.01em;
     
-          width: 40vw;
+          width: 35vw;
     
           /* NORMAL */
           --fc-border-color: #ECEFF9;
