@@ -400,6 +400,20 @@ li{
     background-repeat: no-repeat;
 }
 
+.bg-image-How-to-square {
+  background-image: url('/images/How-to.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-how-to-card {
+  background-color: rgb(240,240,240);
+  background-image: url('/images/How-to.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .box:hover {
     cursor: pointer;
