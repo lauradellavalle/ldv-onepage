@@ -526,6 +526,25 @@ li{
 }
 
 
+
+/* -------------- Bottone guida How-to -------------- */
+.button-guida {
+    font-weight:normal;
+    border: 2px solid;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: white;
+    border-radius: 2rem;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.button-guida:hover{
+    background-color:white;
+    color:black;
+}
+
+
 /* -------------- Media Queries - SM 48em/768px -------------- */
 @media (max-width: 60em) {
     header section {
