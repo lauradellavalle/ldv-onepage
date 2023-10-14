@@ -612,15 +612,17 @@ li{
     margin-top: 56px;
   }
   
+  /*
   p {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     letter-spacing: -0.01em;
   
-    /* Neutral/6 */
+     Neutral/6 
     color: #535479;
   }
+  */
   
   p.description {
     font-weight: 500;
