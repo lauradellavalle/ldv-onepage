@@ -286,6 +286,13 @@ li{
     padding-bottom: 46.47%;
 }
 
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
 
 /* -------------- Home mobile -------------- */
 .typed-text-mobile{
@@ -351,6 +358,9 @@ li{
     border: 3px solid white;
 }
 
+.border-first-row {
+  border-bottom: 5vh solid white;
+}
 
 
 /* Background-images */
