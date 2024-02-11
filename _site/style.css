@@ -361,6 +361,8 @@ li{
 .border-first-row {
   border-bottom: 5vh solid white;
 }
+/* parte html 
+<span class="blink_me">This Will Blink</span> */
 
 
 /* Background-images */
@@ -543,6 +545,15 @@ li{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 60vh;
+}
+
+.bg-image-Bondi-Jan2024 {
+  background-color: lightgray;
+  background-image: url(/images/Jan-2024-Bondi.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 60vh;
 }
 
 .portrait-how-to {
