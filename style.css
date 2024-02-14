@@ -556,8 +556,26 @@ li{
   min-height: 60vh;
 }
 
+.bg-image-Jan2024 {
+  background-color: lightgray;
+  background-image: url(/images/Jan-2024.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+
 .portrait-how-to {
     padding-bottom: 55%;
+}
+
+.bg-image-resus-pm-bw {
+  background-color: lightgray;
+  background-image: url(/images/RESUS-pm-bw.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 60vh;
 }
 
 
