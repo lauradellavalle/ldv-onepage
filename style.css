@@ -99,6 +99,10 @@ a:hover {
     color: rgb(120,120,125);
 }
 
+html {
+  background-color: #FFFDFA;
+}
+
 /* -------------- Typography Styles -------------- */
 
 h1 {
