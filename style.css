@@ -572,7 +572,7 @@ li{
 .bg-image-resus-pm-bw {
   background-color: lightgray;
   background-image: url(/images/RESUS-pm-bw.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 60vh;
