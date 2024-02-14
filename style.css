@@ -426,6 +426,14 @@ li{
   background-repeat: no-repeat;
 }
 
+.bg-image-Jan-2024 {
+  background-color: rgb(240,240,240);
+  background-image: url('/images/Jan-2024.jpg');
+  background-position: 50% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .box:hover {
     cursor: pointer;
